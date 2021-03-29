@@ -18,8 +18,7 @@ function newItem() {
 		li.toogleClass("strike"); // instead of classList.toogle we use toogleClass() in jquery
 	}
 
-	li.on("dblclick", function crossOut() { // .on () --> Attach an event handler function 
-    //for one or more events to the selected elements.
+	li.on("dblclick", function crossOut() { // .on () --> Attach an event handler function for one or more events to the selected elements.
 		li.toogleClass("strike");
 	});
 
